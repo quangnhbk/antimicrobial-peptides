@@ -438,9 +438,7 @@ def split_10_folds():
         
         train_one_fold(fold, data_train, label_train, data_val, label_val)
         
-        fold = fold + 1
-    
-    print_history(fold, history)
+        fold = fold + 1    
     
 def train_one_fold(fold, data_train, label_train, data_val, label_val):
     print("\n### TRAIN FOLD " + str(fold) + " ###")
@@ -466,6 +464,7 @@ def train_one_fold(fold, data_train, label_train, data_val, label_val):
                     validation_data=(data_val_coded, label_val),
                     verbose = 1,
                     callbacks = [model_checkpoint, early_stopping, reduce_lr])
+    print_history(fold, history)
     
 ##################################
 if __name__== "__main__":
