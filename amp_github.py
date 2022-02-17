@@ -70,7 +70,7 @@ MAX_LENGTH = 30
 NUMBER_OF_PARAMS = 183
 
 ###### FILES #####
-DIR_DATASET = "/media/data/quangnh/ShortAntimicrobialPeptidesPrediction/Dataset/"
+DIR_DATASET = "./ShortAntimicrobialPeptidesPrediction/Dataset/"
 TRAIN_POSITIVE_FILE = DIR_DATASET + "train_po.fasta"
 TRAIN_NEGATIVE_FILE = DIR_DATASET + "train_ne.fasta"
 
