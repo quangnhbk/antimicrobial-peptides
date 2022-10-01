@@ -1,5 +1,4 @@
-# antimicrobial-peptides
-iAMP-DL: Identifying short antimicrobial peptides using long short-term memory incorporated with convolutional neural networks
+# iAMP-DL: Identifying short antimicrobial peptides using long short-term memory incorporated with convolutional neural networks
 + Train process:
 Syntax: python3 train.py
 
