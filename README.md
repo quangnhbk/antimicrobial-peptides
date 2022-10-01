@@ -5,9 +5,9 @@ Syntax: python3 train.py
 
 + Test process: 
 
-Syntax: python3 test.py <FastA input file> <CSV result file>
+Syntax: python3 test.py FastA-input-file CSV-result-file
   
-python3 test.py test_sample.fasta test_sample_result.csv
+Example: python3 test.py test_sample.fasta test_sample_result.csv
 
 + Example of "FastA input file": 
 
